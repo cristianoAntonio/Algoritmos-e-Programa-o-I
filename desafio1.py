@@ -44,3 +44,11 @@
 # tamanho_texto = int(input("Quantidade de caracteres: "))
 # tempo_segundos = int(tamanho_texto / 10)
 # print("Vai levar {} segundos para escrever seu texto".format(tempo_segundos))
+
+#DESAFIO 7
+
+# calorias_gastas = int(input("Digite quantas calorias vc deseja gastar: "))
+# tempo_exercicio = calorias_gastas/500
+# tempo_horas = int(tempo_exercicio)
+# tempo_minutos = int((tempo_exercicio - tempo_horas)*60)
+# print("Vc deve fazer {:0>2}:{:0<2} horas de exercicio para queimar {} calorias".format(tempo_horas, tempo_minutos, calorias_gastas))
